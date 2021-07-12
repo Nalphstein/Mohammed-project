@@ -1,9 +1,9 @@
-import "./Works.scss"
+import "../Scssfiles/works.scss";
 
 
 export default function Works() {
     return (
-        <div className = "Works">
+        <div className ="works" id="works">
             
         </div>
     )

@@ -1,8 +1,8 @@
-import "./portfolio.scss"
+import "../Scssfiles/portfolio.scss";
 
-export default function portfolio() {
+export default function Portfolio() {
     return (
-        <div className= "portfolio">
+        <div className="portfolio" id="portfolio">
             
         </div>
     )

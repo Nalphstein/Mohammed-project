@@ -1,8 +1,8 @@
-import "./intro.scss"
+import "../Scssfiles/intro.scss";
 
-export default function intro() {
+export default function Intro() {
     return (
-        <div className = "Intro"> 
+        <div className ="intro" id= "intro">
             
         </div>
     )

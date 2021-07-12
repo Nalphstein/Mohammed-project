@@ -1,8 +1,8 @@
-import "./Contacts.scss"
+import "../Scssfiles/contacts.scss";
 
 export default function Contacts() {
     return (
-        <div className= "Contact Me">
+        <div className= "contacts" id= "contacts">
             
         </div>
     )
