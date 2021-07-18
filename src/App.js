@@ -1,4 +1,5 @@
 
+import Intro from './components/Intro'
 import Topbar from './components/Topbar'
 
 
@@ -6,7 +7,8 @@ import Topbar from './components/Topbar'
 function App() {
   return (
   <div className='App'>
-    <Topbar/>  
+    <Topbar/>
+    <Intro/>  
     </div>
   );
 }
