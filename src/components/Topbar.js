@@ -27,7 +27,7 @@ const Topbar = () => {
                 </div>
             <div>
                 <section>
-                    <main className="grid lg:grid-cols-2 my-20 gap-20">
+                    <main className="grid lg:grid-cols-2 my-20 gap-40">
                         <div className="lg:text-left lg:text-left">
                             <h1 className=" mt-20 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-100xl sm:text-100xl">
                                 <span className="block xl:inline md:flex-shrink-5">
@@ -39,12 +39,12 @@ const Topbar = () => {
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md-5 shadow">
-                                    <a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                                    <a href="/" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-3">
                                         Get it on Chrome
                                     </a>
                                 </div>
                                 <div className="mt-2 sm:mt-0 sm:ml-2">
-                                    <a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+                                    <a href="/" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-3">
                                         Get it on Firefox
                                     </a>
                                 </div>
@@ -55,7 +55,7 @@ const Topbar = () => {
                             <img src={illustration} alt="illustration" 
                             className="rounded mb-2- shadow h-56 w-full relative top-10 right-9 z-10 object-cover sm:h-72 md:h-96 sm:w-full md:h-full px-3 py-1 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-black focus:bg-indigo-700 md:  py-4 md:text-lg md:px-3 py-1"/>
 
-                                <div className="absolute -bottom-20 left-3 z-0 w-full bg-blue-600 rounded-l-full h-full"></div>
+                                <div className="absolute -bottom-40 left-16 z-0 w-full bg-blue-600 rounded-l-full h-full"></div>
                         
                         </div>
                     </main>
