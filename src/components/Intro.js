@@ -14,20 +14,20 @@ export default function Intro() {
           </p>
           <div>
             <div className="my-20">
-            <div className="hidden md:flex md:ml-20 md:pr-36 md:space-x-40 relative justify-center items-center border-b-2 hover:rounded-sm">
-              <h2 className="mt-3 text-3xl leading-6 font-medium tracking-tight text-gray-500 sm:text-2xl hover: border-b-2 hover: pb-6 hover:border-red-500">Simple Bookmarking</h2>
-              <h2 className="mt-3 text-3xl leading-6 font-medium tracking-tight text-gray-500 sm:text-2xl hover: border-b-2 hover: pb-6 hover:border-red-500">Speedy Searching</h2>
-              <h2 className="mt-3 text-3xl leading-6 font-medium tracking-tight text-gray-500 sm:text-2xl hover: border-b-2 hover: pb-6 hover:border-red-500">Easy Sharing</h2>   
+              <div className="hidden md:flex md:ml-20 md:pr-36 md:space-x-40 relative justify-center items-center border-b-2 hover:rounded-sm">
+                <h2 className="mt-3 text-3xl leading-6 font-medium tracking-tight text-gray-500 sm:text-2xl hover: border-b-2 hover: pb-6 hover:border-red-500">Simple Bookmarking</h2>
+                <h2 className="mt-3 text-3xl leading-6 font-medium tracking-tight text-gray-500 sm:text-2xl hover: border-b-2 hover: pb-6 hover:border-red-500">Speedy Searching</h2>
+                <h2 className="mt-3 text-3xl leading-6 font-medium tracking-tight text-gray-500 sm:text-2xl hover: border-b-2 hover: pb-6 hover:border-red-500">Easy Sharing</h2>   
+              </div>
             </div>
           </div>
-          </div>
         </div>
-        <div>
-        <main className="grid lg:grid-cols-2 my-30 gap-40">
+        
+        <main className="grid lg:grid-cols-2 my-30 gap-60">
         <div className="relative ">
           <img src={lucious} alt="lucious" 
-          className="rounded mt-15 shadow h-56 w-full relative top-10 -left-30 z-10 object-cover sm:h-72 md:h-96 sm:w-full md:h-full"/>
-          <div className="absolute -bottom-40 right-40 z-0 w-full bg-blue-600 rounded-r-full h-full">
+          className="rounded mt-15 shadow h-56 w-full relative top-10 left-20 z-10 object-cover sm:h-72 md:h-96 sm:w-full md:h-full"/>
+          <div className="absolute -bottom-40 right-20 z-0 w-full bg-blue-600 rounded-r-full h-full">
 
           </div>
                        
@@ -43,15 +43,15 @@ export default function Intro() {
           </p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md-5 shadow">
-              <a href="/" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-3">
+              <button type="button" className="w-full flex items-center justify-center btn btn-indigo hover:bg-indigo-700 md:py-4 md:text-lg md:px-3">
                 More Info
-              </a>
+              </button>
             </div>
           </div>
         </div>
         </main>
+      </div>
         </div>
-        </div>
-        </div>
+        
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import lookmark from "../Images/logo-bookmark.svg"
 import illustration from "../Images/illustration-features-tab-1.svg";
+import hamburger from "../Images/icon-hamburger.svg";
 
 
 
@@ -13,14 +14,17 @@ const Topbar = () => {
                     <a href="/">
                         <span className="pl-8 mg-0 font-black">
                         </span>
-                        <img src={lookmark} alt=""className="h-full rounded mb-2- shadow"/>
+                        <img src={lookmark} alt="lookmark" className="h-full rounded mb-2- shadow"/>
                     </a>
-                    <div className="hidden md:flex justify-end md:flex-1 lg:flex justify-end lg:flex-1">
+                    <div className="md:flex justify-end md:flex-1 lg:flex justify-end lg:flex-1">
                         <div className="hidden md:flex md:ml-20 md:pr-4 md:space-x-3 relative justify-end">
-                            <a href="/" className="font-medium text-gray-500 hover:text-gray-900 xl:flex place-items-start  justify-end md:flex-4 ">Features</a>
-                            <a href="/" className="font-medium text-gray-500 hover:text-gray-900 xl:flex items-center justify-end md:flex-2 ">Pricing</a>
-                            <a href="/" className="font-medium text-gray-500 hover:text-gray-900 xl:flex items-center justify-end md:flex-4 ">Contact</a>
-                            <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500 xl:flex items-center justify-end md:flex-4 ">Log in</a>
+                            <a href="/" className="font-medium text-gray-500 hover:text-gray-900  py-2 xl:flex place-items-start  justify-end md:flex-4 cursor-pointer">Features</a>
+                            <a href="/" className="font-medium text-gray-500 hover:text-gray-900  py-2 xl:flex items-center justify-end md:flex-2 cursor-pointer">Pricing</a>
+                            <a href="/" className="font-medium text-gray-500 hover:text-gray-900  py-2 xl:flex items-center justify-end md:flex-4 cursor-pointer">Contact</a>
+                            <button type="button" className="font-medium text-white border: border-opacity-10 bg-red-500  py-2 px-7  rounded-md cursor-pointer hover:text-red-500 hover:bg-white xl:flex items-center justify-end md:flex-4 cursor-pointer">Login</button>
+                        </div>
+                        <div className="flex sm:hidden flex-1 justify-end">
+                            <img src={hamburger} alt="harmburger" className="text-2xl"/>
                         </div>
                     </div>
                     
@@ -39,14 +43,14 @@ const Topbar = () => {
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md-5 shadow">
-                                    <a href="/" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-3">
+                                    <button type="button" className="w-full flex items-center justify-center border border-transparent btn btn-indigo hover:bg-indigo-800 md:py-4 md:text-lg md:px-3">
                                         Get it on Chrome
-                                    </a>
+                                    </button>
                                 </div>
                                 <div className="mt-2 sm:mt-0 sm:ml-2">
-                                    <a href="/" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-3">
+                                    <button type="button" className="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-3">
                                         Get it on Firefox
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
