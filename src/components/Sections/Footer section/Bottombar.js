@@ -1,7 +1,7 @@
 import React from 'react';
-import lookmark from "../Images/logo-Copy.svg";
-import facebook from "../Images/icon-facebook.svg";
-import twitter from "../Images/icon-twitter.svg";
+import lookmark from "../../../Images/logo-Copy.svg";
+import facebook from "../../../Images/icon-facebook.svg";
+import twitter from "../../../Images/icon-twitter.svg";
 
 export default function Bottombar() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import Arrow from "../Images/icon-arrow.svg";
+import Arrow from "../../../Images/icon-arrow.svg";
 
 
 export default function Faq() {

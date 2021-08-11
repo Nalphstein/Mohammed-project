@@ -1,0 +1,29 @@
+[33mcommit cd4dc3dec7045be2042fac2527daf29a96a54a70[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Mohammed_dev <Djmohams123@gmail.com>
+Date:   Mon Jul 26 17:42:27 2021 +0100
+
+    Add the FAQ section
+
+[33mcommit 374a4e6fd208e4644078caa5178be7067b7fd518[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Mohammed_dev <Djmohams123@gmail.com>
+Date:   Tue Jul 20 01:46:38 2021 +0100
+
+    Implement the features page
+
+[33mcommit 124043d6d895c18b704e91691880fd5983aab87e[m
+Author: Mohammed_dev <Djmohams123@gmail.com>
+Date:   Sun Jul 18 07:58:08 2021 +0100
+
+    Create hero page
+
+[33mcommit 414b1c4469282f63dbf4ee0220648d6ea7c7317d[m
+Author: Mohammed_dev <Djmohams123@gmail.com>
+Date:   Thu Jul 15 17:18:19 2021 +0100
+
+    Create Navbar
+
+[33mcommit 9838618d6179f62b60efa87c89e45b1c2dddf331[m
+Author: Mohammed_dev <Djmohams123@gmail.com>
+Date:   Thu Jul 15 05:28:36 2021 +0100
+
+    Initialize project using Create React App

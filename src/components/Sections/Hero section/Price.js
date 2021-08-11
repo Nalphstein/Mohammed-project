@@ -1,7 +1,7 @@
 import React from 'react';
-import Chrome from "../Images/logo-chrome.svg";
-import Firefox from "../Images/logo-firefox.svg";
-import Opera from "../Images/logo-opera.svg";
+import Chrome from "../../../Images/logo-chrome.svg";
+import Firefox from "../../../Images/logo-firefox.svg";
+import Opera from "../../../Images/logo-opera.svg";
 
 
 export default function Price() {
